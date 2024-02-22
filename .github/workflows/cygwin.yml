@@ -1,0 +1,14 @@
+            - name: Install Cygwin
+  # You may pin to the exact commit or the version.
+  # uses: egor-tensin/setup-cygwin@d2c752bab416d4b0662591bd366fc2686297c82d
+  uses: egor-tensin/setup-cygwin@v4.0.1
+  with:
+    # Installation directory
+    install-dir: # optional, default is C:\tools\cygwin
+    # Packages to install, separated by a space
+    packages: gcc-core  make  ghostscript  dos2unix  zip  cygrunsrv 
+    # Value to set as the CYGWIN environment variable
+    env: CC=gcc # optional
+    # Convert symlinks in /usr/bin to hardlinks
+    hardlinks: # optional, default is 0
+          
