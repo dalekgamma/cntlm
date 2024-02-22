@@ -1,4 +1,4 @@
-            - name: Install Cygwin
+ - name: Install Cygwin
   # You may pin to the exact commit or the version.
   # uses: egor-tensin/setup-cygwin@d2c752bab416d4b0662591bd366fc2686297c82d
   uses: egor-tensin/setup-cygwin@v4.0.1
